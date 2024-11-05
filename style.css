@@ -1,42 +1,55 @@
-}
 body {
     background-color: whitesmoke;
     font-family: sans-serif; sans-serif;
+    text-align: justify-all;
+    margin: 0;
+    background-color: floralwhite; 
+}
+
+.header {
+    background-color: black;
+    color: white;
     text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
 
-            margin: 0;
-            background-color: floralwhite; 
-        }
-        .header {
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 2em;
-        }
-        .table {
-            border: 1px solid #495057; 
-        }
-        .ability-strong {
-            color: #28a745; /* Green for strong abilities */
-        }
-        .ability-quick {
-            color: #17a2b8; /* Cyan for quick abilities */
-        }
-        .table {
-            padding: 15px;
-        }
+.table {
+    border: 1px solid #495057; 
+}
+.ability-strong {
+    color: #28a745; /* Green for strong abilities */
+}
+.ability-quick {
+    color: #17a2b8; /* Cyan for quick abilities */
+}
+.table {
+    padding: 15px;
+}
 
+.table-img 
+{
+        width: 250px;
+
+}
 
 
-        }
 
-        .ability-strong {
-            color: #28a745; 
-        }
+}
 
-        .ability-quick {
-            color: #17a2b8; 
-        }
+.ability-strong {
+    color: #28a745; 
+}
 
+.ability-quick {
+    color: #17a2b8; 
+}
+
+.animate__flash:hover{
+    animate-duration: 2s;
+    display: inline-block;
+    animation: flash;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
 
